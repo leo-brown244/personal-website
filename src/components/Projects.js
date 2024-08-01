@@ -30,7 +30,46 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
+  const blockchain_projects = [
+    {
+      description: "As the production is a modern Elementor Template Kit with dark style UI, this is a WordPress based website for Bitcoin, Blockchain, Cryptocurrency, Crypto Landing Page, ICO Agency, Fintech Company, and all kinds of Financial Technology websites. ",
+      imgUrl: blockprojImg1,
+    },
+    {
+      description: "This production is a website for Bitcoin, Blockchain, Cryptocurrency, Crypto Landing Page, ICO Agency, Fintech Company, and all kinds of Financial Technology websites.nal nail, beauty, and salon products.",
+      imgUrl: blockprojImg2,
+    },
+    {
+      description: "This is designed according to latest cryptocurrency world requirements  for the type of websites that deal with digital currency, Cryptocurrencies, Finances, bitcoin mining equipment and business consulting.",
+      imgUrl: blockprojImg3,
+    },
+    {
+      description: " We can use it for multipurpose like ICO Presentation and new Crypto coins, bitcoin mining websites, cryptocurrency exchange and trading, digital currencies, finances, and business consulting.",
+      imgUrl: blockprojImg4,
+    },
+    {
+      description: "This is a web site for cryptocurrency, ICO, and Blockchain technology.",
+      imgUrl: blockprojImg5,
+    },
+  ];
+
   const web_projects = [
+    {
+      description: "Skywolf is the OpenAI project that is launched to transform your legislative workflow with cutting-edge technology.",
+      imgUrl: otherprojImg1,
+      url:"https://skywolf.ai/"
+    },
+    {
+      description: "MES, or Manufacturing Execution System, can optimize the management of the entire production process from order placement to product completion through information transmission, and use current real-time data for guidance and processing, and respond and report in a timely manner.",
+      imgUrl: otherprojImg5,
+      url:""
+    },
+    {
+      description: "Realize the benefits of Forea manufacturing execution system(MES)",
+      imgUrl: otherprojImg6,
+      url:""
+    },
+
     {
       description: "Full-Stack Development & Web Design",
       imgUrl: webprojImg1,
@@ -58,35 +97,7 @@ export const Projects = () => {
     },
   ];
 
-  const blockchain_projects = [
-    {
-      description: "As the production is a modern Elementor Template Kit with dark style UI, this is a WordPress based website for Bitcoin, Blockchain, Cryptocurrency, Crypto Landing Page, ICO Agency, Fintech Company, and all kinds of Financial Technology websites. ",
-      imgUrl: blockprojImg1,
-    },
-    {
-      description: "This production is a website for Bitcoin, Blockchain, Cryptocurrency, Crypto Landing Page, ICO Agency, Fintech Company, and all kinds of Financial Technology websites.nal nail, beauty, and salon products.",
-      imgUrl: blockprojImg2,
-    },
-    {
-      description: "This is designed according to latest cryptocurrency world requirements  for the type of websites that deal with digital currency, Cryptocurrencies, Finances, bitcoin mining equipment and business consulting.",
-      imgUrl: blockprojImg3,
-    },
-    {
-      description: " We can use it for multipurpose like ICO Presentation and new Crypto coins, bitcoin mining websites, cryptocurrency exchange and trading, digital currencies, finances, and business consulting.",
-      imgUrl: blockprojImg4,
-    },
-    {
-      description: "This is a web site for cryptocurrency, ICO, and Blockchain technology.",
-      imgUrl: blockprojImg5,
-    },
-  ];
-
   const other_projects = [
-    {
-      description: "Skywolf is the OpenAI project that is launched to transform your legislative workflow with cutting-edge technology.",
-      imgUrl: otherprojImg1,
-      url:"https://skywolf.ai/"
-    },
     {
       description: "It is a system used for controlling industrial processes, infrastructure, and facilities. SCADA systems are crucial in various sectors, including manufacturing, energy, water treatment, transportation, and telecommunications.",
       imgUrl: otherprojImg2,
@@ -100,16 +111,6 @@ export const Projects = () => {
     {
       description: "PLC Editor",
       imgUrl: otherprojImg4,
-      url:""
-    },
-    {
-      description: "MES, or Manufacturing Execution System, can optimize the management of the entire production process from order placement to product completion through information transmission, and use current real-time data for guidance and processing, and respond and report in a timely manner.",
-      imgUrl: otherprojImg5,
-      url:""
-    },
-    {
-      description: "Realize the benefits of Forea manufacturing execution system(MES)",
-      imgUrl: otherprojImg6,
       url:""
     },
     {
