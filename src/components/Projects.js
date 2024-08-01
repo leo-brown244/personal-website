@@ -69,32 +69,47 @@ export const Projects = () => {
       imgUrl: otherprojImg6,
       url:""
     },
-
     {
-      description: "Full-Stack Development & Web Design",
-      imgUrl: webprojImg1,
-      url:"https://www.pedispasofamerica.com/shop/"
+      description: "Video Conference System: This system is a real-time video chat system based on webrtc. Using AI technology provided by NVIDIA, GreenScreen, Super Resolution, and ASR functions are implemented. It provides broadcast function for social sites including youtube and twitter. (Skills:  NodeJS, ReactJS, AngularJS, c++, QT, webrtc, ReactNative)",
+      imgUrl: otherprojImg7,
+      url:"https://www.cimpatico.com/"
     },
+    {
+      description: "Doctor consultation site: This site is an advanced visualization application developed as collaboration between Nexus MD and Kitware for visualizing vascular images such as MRA and CTA. It is fully customized and tailored to increase the efficiency of diagnostic and surgical planning for vascular diseases. (Skills:  VTK, ITK, paraview-glance, Vue.js)",
+      imgUrl: otherprojImg8,
+      url:"https://www.nexus-md.com/"
+    },
+    {
+      description: "Event Manage System: This site is the global directory of legal technology solutions, tools and services where buyers of legal technology can research the legal tech they need to manage a 21st century law firm or in-house department, vendors can showcase their solutions, and investors can understand the marketplace. (Skills: next.js, react.js, typescript )",
+      imgUrl: otherprojImg9,
+      url:"https://www.legaltechnologyhub.com/"
+    },
+    
+    // {
+    //   description: "Full-Stack Development & Web Design",
+    //   imgUrl: webprojImg1,
+    //   url:"https://www.pedispasofamerica.com/shop/"
+    // },
     {
       description: "Beauty Page, Inc. is one of the leading global distributors for professional nail, beauty, and salon products.",
       imgUrl: webprojImg2,
       url:"https://beautypageinc.com/shop"
     },
-    {
-      description: "We’ve determined to be one of the leading pioneers in the IT field since the company was established hence we used the technological and managerial tools to be able to do our destined role in the most convincing way which complies with the international standards.",
-      imgUrl: webprojImg3,
-      url:"https://www.tripshop.com/"
-    },
+    // {
+    //   description: "We’ve determined to be one of the leading pioneers in the IT field since the company was established hence we used the technological and managerial tools to be able to do our destined role in the most convincing way which complies with the international standards.",
+    //   imgUrl: webprojImg3,
+    //   url:"https://www.tripshop.com/"
+    // },
     {
       description: "We won multiple awards – Top 10 Wearable Companies by Entrepreneur Magazine, Technology Startup of the Year by PACT, and others. ",
       imgUrl: webprojImg4,
       url:"https://www.roarforgood.com/"
     },
-    {
-      description: "Envato is a community of creatives who come together to share ideas and help each other succeed.",
-      imgUrl: webprojImg5,
-      url:"https://codecanyon.net/item/grofresh-grocery-pharmacy-ecommerce-store-app-and-web-with-laravel-admin-panel-delivery-app/32791631."
-    },
+    // {
+    //   description: "Envato is a community of creatives who come together to share ideas and help each other succeed.",
+    //   imgUrl: webprojImg5,
+    //   url:"https://codecanyon.net/item/grofresh-grocery-pharmacy-ecommerce-store-app-and-web-with-laravel-admin-panel-delivery-app/32791631."
+    // },
   ];
 
   const other_projects = [
@@ -112,21 +127,6 @@ export const Projects = () => {
       description: "PLC Editor",
       imgUrl: otherprojImg4,
       url:""
-    },
-    {
-      description: "Video Conference System: This system is a real-time video chat system based on webrtc. Using AI technology provided by NVIDIA, GreenScreen, Super Resolution, and ASR functions are implemented. It provides broadcast function for social sites including youtube and twitter. (Skills:  NodeJS, ReactJS, AngularJS, c++, QT, webrtc, ReactNative)",
-      imgUrl: otherprojImg7,
-      url:"https://www.cimpatico.com/"
-    },
-    {
-      description: "Doctor consultation site: This site is an advanced visualization application developed as collaboration between Nexus MD and Kitware for visualizing vascular images such as MRA and CTA. It is fully customized and tailored to increase the efficiency of diagnostic and surgical planning for vascular diseases. (Skills:  VTK, ITK, paraview-glance, Vue.js)",
-      imgUrl: otherprojImg8,
-      url:"https://www.nexus-md.com/"
-    },
-    {
-      description: "Event Manage System: This site is the global directory of legal technology solutions, tools and services where buyers of legal technology can research the legal tech they need to manage a 21st century law firm or in-house department, vendors can showcase their solutions, and investors can understand the marketplace. (Skills: next.js, react.js, typescript )",
-      imgUrl: otherprojImg9,
-      url:"https://www.legaltechnologyhub.com/"
     },
     {
       description: "EatFit App: EatFit is the solution to nutrition education, access to healthy food, and weight loss. You can also find programs and events from many community partners. (Skills:  IOS&Android, GCP, Google App Engine, Google Firestore DB, Google Cloud Functions)",
