@@ -147,10 +147,10 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Full-Stack</Nav.Link>
+                      <Nav.Link eventKey="first">BlockChain</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">BlockChain</Nav.Link>
+                      <Nav.Link eventKey="second">Full-Stack</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Other</Nav.Link>
@@ -160,7 +160,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
-                          web_projects.map((project, index) => {
+                          blockchain_projects.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -174,7 +174,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                       <Row>
                           {
-                            blockchain_projects.map((project, index) => {
+                            web_projects.map((project, index) => {
                               return (
                                 <ProjectCard
                                   key={index}
