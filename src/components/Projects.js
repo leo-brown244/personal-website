@@ -32,12 +32,14 @@ export const Projects = () => {
 
   const blockchain_projects = [
     {
-      description: "As the production is a modern Elementor Template Kit with dark style UI, this is a WordPress based website for Bitcoin, Blockchain, Cryptocurrency, Crypto Landing Page, ICO Agency, Fintech Company, and all kinds of Financial Technology websites. ",
+      description: "Building Web5 Project to power communities",
       imgUrl: blockprojImg1,
+      url:"https://intercoin.org/"
     },
     {
-      description: "This production is a website for Bitcoin, Blockchain, Cryptocurrency, Crypto Landing Page, ICO Agency, Fintech Company, and all kinds of Financial Technology websites.nal nail, beauty, and salon products.",
+      description: "An easy, one-touch, simplified human language App which allows everyone to store - create – invest digital assets",
       imgUrl: blockprojImg2,
+      url:"https://galaxyfinance.io/"
     },
     {
       description: "This is designed according to latest cryptocurrency world requirements  for the type of websites that deal with digital currency, Cryptocurrencies, Finances, bitcoin mining equipment and business consulting.",
