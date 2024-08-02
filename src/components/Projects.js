@@ -29,7 +29,6 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
-
   const blockchain_projects = [
     {
       description: "Building Web5 Project to power communities",
@@ -82,60 +81,45 @@ export const Projects = () => {
       url:"https://www.legaltechnologyhub.com/"
     },
     
-    // {
-      //   description: "Full-Stack Development & Web Design",
-      //   imgUrl: webprojImg1,
-      //   url:"https://www.pedispasofamerica.com/shop/"
-      // },
-      {
-        description: "Beauty Page, Inc. is one of the leading global distributors for professional nail, beauty, and salon products.",
-        imgUrl: webprojImg2,
+    {
+      description: "Beauty Page, Inc. is one of the leading global distributors for professional nail, beauty, and salon products.",
+      imgUrl: webprojImg2,
       url:"https://beautypageinc.com/shop"
     },
-    // {
-      //   description: "We’ve determined to be one of the leading pioneers in the IT field since the company was established hence we used the technological and managerial tools to be able to do our destined role in the most convincing way which complies with the international standards.",
-      //   imgUrl: webprojImg3,
-      //   url:"https://www.tripshop.com/"
-      // },
-      {
-        description: "We won multiple awards – Top 10 Wearable Companies by Entrepreneur Magazine, Technology Startup of the Year by PACT, and others. ",
-        imgUrl: webprojImg4,
-        url:"https://www.roarforgood.com/"
-      },
-      // {
-        //   description: "Envato is a community of creatives who come together to share ideas and help each other succeed.",
-        //   imgUrl: webprojImg5,
-        //   url:"https://codecanyon.net/item/grofresh-grocery-pharmacy-ecommerce-store-app-and-web-with-laravel-admin-panel-delivery-app/32791631."
-        // },
-    ];
+    {
+      description: "We won multiple awards – Top 10 Wearable Companies by Entrepreneur Magazine, Technology Startup of the Year by PACT, and others. ",
+      imgUrl: webprojImg4,
+      url:"https://www.roarforgood.com/"
+    },
+  ];
       
-    const other_projects = [
-      {
-        description: "Skywolf is the OpenAI project that is launched to transform your legislative workflow with cutting-edge technology.",
-        imgUrl: otherprojImg1,
-        url:"https://skywolf.ai/"
-      },
-      {
-        description: "It is a system used for controlling industrial processes, infrastructure, and facilities. SCADA systems are crucial in various sectors, including manufacturing, energy, water treatment, transportation, and telecommunications.",
-        imgUrl: otherprojImg2,
+  const other_projects = [
+    {
+      description: "Skywolf is the OpenAI project that is launched to transform your legislative workflow with cutting-edge technology.",
+      imgUrl: otherprojImg1,
+      url:"https://skywolf.ai/"
+    },
+    {
+      description: "It is a system used for controlling industrial processes, infrastructure, and facilities. SCADA systems are crucial in various sectors, including manufacturing, energy, water treatment, transportation, and telecommunications.",
+      imgUrl: otherprojImg2,
+    url:""
+    },
+    {
+      description: "The G-code editor is an editor that performs the functions of editing and interpreting NC files and positioning the movements of numerically controlled machine tools",
+      imgUrl: otherprojImg3,
       url:""
-      },
-      {
-        description: "The G-code editor is an editor that performs the functions of editing and interpreting NC files and positioning the movements of numerically controlled machine tools",
-        imgUrl: otherprojImg3,
-        url:""
-      },
-      {
-        description: "PLC Editor",
-        imgUrl: otherprojImg4,
-        url:""
-      },
-      {
-        description: "EatFit App: EatFit is the solution to nutrition education, access to healthy food, and weight loss. You can also find programs and events from many community partners. (Skills:  IOS&Android, GCP, Google App Engine, Google Firestore DB, Google Cloud Functions)",
-        imgUrl: otherprojImg10,
-        url:"https://apps.apple.com/us/app/eat-fit/id1325690290"
-      },
-    ];
+    },
+    {
+      description: "PLC Editor",
+      imgUrl: otherprojImg4,
+      url:""
+    },
+    {
+      description: "EatFit App: EatFit is the solution to nutrition education, access to healthy food, and weight loss. You can also find programs and events from many community partners. (Skills:  IOS&Android, GCP, Google App Engine, Google Firestore DB, Google Cloud Functions)",
+      imgUrl: otherprojImg10,
+      url:"https://apps.apple.com/us/app/eat-fit/id1325690290"
+    },
+  ];
 
   return (
     <section className="projects" id="projects">
